@@ -12,12 +12,19 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Navbar />
-      <Section />
-      <Footer />
-    </>
-  )
+    <BrowserRouter>
+    <Routes>
+      <Route path='/login' element={<>
+      <div>
+        <h1>Login</h1>
+          </div>
+          </>
+          }
+          ></Route>
+    </Routes>
+    </BrowserRouter>
+ 
+  );
 }
 
 export default App
