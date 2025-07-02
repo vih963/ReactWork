@@ -24,7 +24,7 @@ Privadas
         Listar Usuarios*/
 
 
-app.listen(3000, () => console.log("Servidor Rodando"))
+app.listen(3000, () => console.log("Servidor Rodando 🚀"))
 //console.log("Servidor Rodando")
 
 
