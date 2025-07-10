@@ -19,6 +19,9 @@ await api.post('/cadastro', {
 })
 
 }
+catch {
+    
+}
 
     return (
         <div className="max-w-md mx-auto mt-10 bg-white p-8 border border-gray-300 rounded-lg shadow-lg">
